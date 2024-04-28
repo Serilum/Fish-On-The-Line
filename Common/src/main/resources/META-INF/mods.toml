@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="fishontheline"
-version="3.2"
+version="3.3"
 displayName="Fish On The Line"
 displayURL="https://serilum.com/mod/fish-on-the-line"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.fishontheline]]
     modId="collective"
     mandatory=true
-    versionRange="[7.53,)"
+    versionRange="[7.54,)"
     ordering="NONE"
     side="BOTH"
 
