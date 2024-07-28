@@ -1,6 +1,7 @@
 package com.natamus.fishontheline;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.fishontheline.forge.config.IntegrateForgeConfig;
 import com.natamus.fishontheline.forge.events.ForgeFishOnTheLineEvent;
 import com.natamus.fishontheline.util.Reference;
@@ -15,6 +16,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ModForge {
 	
 	public ModForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 
