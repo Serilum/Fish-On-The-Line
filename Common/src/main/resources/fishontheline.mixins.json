@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.fishontheline.forge.mixin",
+  "package": "com.natamus.fishontheline.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "fishontheline_forge.refmap.json",
   "mixins": [
 
   ],
