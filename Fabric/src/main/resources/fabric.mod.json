@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fishontheline",
-  "version": "3.3",
+  "version": "3.4",
 
   "name": "Fish On The Line",
   "description": "Rings the bell held in your offhand when you are fishing and something's on the line.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=7.61"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,11 +44,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " Rare Students",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
