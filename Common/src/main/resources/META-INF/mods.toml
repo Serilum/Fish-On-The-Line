@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="fishontheline"
-version="3.4"
+version="3.5"
 displayName="Fish On The Line"
 displayURL="https://serilum.com/mod/fish-on-the-line"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Rings the bell held in your offhand when you are fishing and some
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, Cherriesaurus, Michael W. S., Nahuel Fernandez, Shana Gitnick, Tyler Behl   
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, David Sanchez, drdog111, Michael W. S., t128, Tyler Behl, XAgent   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -23,7 +23,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
     modId="collective"
     type="required"
     mandatory=true
-    versionRange="[7.78,)"
+    versionRange="[7.91,)"
     ordering="NONE"
     side="BOTH"
 
