@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "fishontheline",
+  "version": "3.5",
+
+  "name": "Fish On The Line",
+  "description": "Rings the bell held in your offhand when you are fishing and something's on the line.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/fish-on-the-line",
+    "sources": "https://github.com/Serilum/Fish-On-The-Line",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Fish%20On%20The%20Line"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.fishontheline.ModFabric" ], "modmenu": [ "com.natamus.fishontheline.fabric.config.IntegrateModMenu" ] },
+
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "collective": ">=8.16"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://serilum.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " akanealw",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " MWS",
+	  " t128",
+	  " Tyler Behl",
+	  " XAgent",
+	  " ตัวตรึง พระนคร"
+  ]
+}
