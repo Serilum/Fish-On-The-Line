@@ -1,6 +1,6 @@
-package com.natamus.fishontheline;
+package com.serilum.fishontheline;
 
-import com.natamus.fishontheline.config.ConfigHandler;
+import com.serilum.fishontheline.config.ConfigHandler;
 
 public class ModCommon {
 
