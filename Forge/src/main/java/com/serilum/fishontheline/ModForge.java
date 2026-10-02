@@ -1,10 +1,10 @@
-package com.natamus.fishontheline;
+package com.serilum.fishontheline;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.fishontheline.forge.config.IntegrateForgeConfig;
-import com.natamus.fishontheline.forge.events.ForgeFishOnTheLineEvent;
-import com.natamus.fishontheline.util.Reference;
+import com.serilum.fishontheline.forge.config.IntegrateForgeConfig;
+import com.serilum.fishontheline.forge.events.ForgeFishOnTheLineEvent;
+import com.serilum.fishontheline.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeFishOnTheLineEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeFishOnTheLineEvent.class);
 	}
 
 	private static void setGlobalConstants() {

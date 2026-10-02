@@ -1,10 +1,10 @@
-package com.natamus.fishontheline;
+package com.serilum.fishontheline;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.fishontheline.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.fishontheline.neoforge.events.NeoForgeFishOnTheLineEvent;
-import com.natamus.fishontheline.util.Reference;
+import com.serilum.fishontheline.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.fishontheline.neoforge.events.NeoForgeFishOnTheLineEvent;
+import com.serilum.fishontheline.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
