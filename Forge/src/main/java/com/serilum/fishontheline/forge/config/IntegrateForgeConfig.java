@@ -1,7 +1,7 @@
-package com.natamus.fishontheline.forge.config;
+package com.serilum.fishontheline.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.fishontheline.util.Reference;
+import com.serilum.fishontheline.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

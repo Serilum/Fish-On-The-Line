@@ -1,6 +1,6 @@
-package com.natamus.fishontheline.forge.events;
+package com.serilum.fishontheline.forge.events;
 
-import com.natamus.fishontheline.events.FishOnTheLineEvent;
+import com.serilum.fishontheline.events.FishOnTheLineEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
