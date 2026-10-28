@@ -1,10 +1,10 @@
-package com.natamus.fishontheline;
+package com.serilum.fishontheline;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectivePlayerEvents;
-import com.natamus.fishontheline.events.FishOnTheLineEvent;
-import com.natamus.fishontheline.util.Reference;
+import com.serilum.fishontheline.events.FishOnTheLineEvent;
+import com.serilum.fishontheline.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;

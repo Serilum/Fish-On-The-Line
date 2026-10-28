@@ -1,8 +1,8 @@
-package com.natamus.fishontheline.events;
+package com.serilum.fishontheline.events;
 
 import com.natamus.collective.data.GlobalVariables;
 import com.natamus.collective.functions.EntityFunctions;
-import com.natamus.fishontheline.config.ConfigHandler;
+import com.serilum.fishontheline.config.ConfigHandler;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;

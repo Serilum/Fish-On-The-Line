@@ -1,7 +1,7 @@
-package com.natamus.fishontheline.config;
+package com.serilum.fishontheline.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.fishontheline.util.Reference;
+import com.serilum.fishontheline.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
